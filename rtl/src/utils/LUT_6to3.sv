@@ -1,6 +1,6 @@
 module LUT_6to3(
 	input logic [5:0] x,
-	input logic [2:0] y
+	output logic [2:0] y
 );
 
 
