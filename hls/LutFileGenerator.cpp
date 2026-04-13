@@ -31,7 +31,6 @@ std::vector<int> e_hex(std::vector<int> b, int mask) {
 }
 
 int main() {
-    std::cout << "asdfhsadl" << std::endl;
     int b; 
     std::vector<int> vect; //vector of constants for LUTs
     std::vector<int> HW_vect(NV);
@@ -56,7 +55,6 @@ int main() {
 
     }
     outFile.close();
-    std::cout << "hi" << std::endl;
     
     return 0;
 }
